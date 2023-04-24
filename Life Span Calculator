@@ -1,0 +1,11 @@
+age = input("What is your current age? ")
+# 1year = 365 days
+# 1 year = 52 weeks
+# 1 year = 12 months
+age1= (int(age))
+years_remain = 65 - age1
+days_remain = years_remain * 365
+weeks_remain = years_remain * 52
+months_remain = years_remain * 12
+result = f"You have {days_remain} days, {weeks_remain} weeks, and {months_remain} months left."
+print(result)
