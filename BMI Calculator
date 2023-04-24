@@ -1,0 +1,12 @@
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# we are using PEMDASLR
+# that is parenthesis-exponents-multiply-divide-sub-add-left_to_right
+bmi=float(weight) / (float(height) ** 2)
+# or you can simply write
+# bmi = float(weight / (float(height) * float(height))
+# we can directly print like this below
+# print(int(bmi))
+# but for specific output
+bmi2=int(bmi)
+print("Your BMI is " + str(bmi2))
